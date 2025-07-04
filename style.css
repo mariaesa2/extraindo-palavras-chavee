@@ -3,7 +3,7 @@
 
 :root {
     --cor-destaque: #ed146bec;
-    --cor-gradiente-preto: linear-gradient(113deg, #ef66cd2c 0%, #f4a1e6 44.96%, #eb9ef3 100%);
+    --cor-gradiente-preto: linear-gradient(113deg, #e74cc02c 0%, #e06bccad 44.96%, #d85de6ca 100%);
 }
 
 * {
@@ -55,7 +55,7 @@ h1 {
 }
 
 #entrada-de-texto::placeholder {
-    color: #06b7e8f1;
+    color: #e806cef1;
     font-size: 1rem;
     font-weight: 400;
     line-height: normal;
