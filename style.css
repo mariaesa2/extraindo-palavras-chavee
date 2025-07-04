@@ -2,14 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
 
 :root {
-    --cor-destaque: #14edbead;
-    --cor-gradiente-preto: linear-gradient(113deg, #000 0%, #1E2021 44.96%, #1E2022 100%);
+    --cor-destaque: #ed146bec;
+    --cor-gradiente-preto: linear-gradient(113deg, #ef66cd2c 0%, #f4a1e6 44.96%, #eb9ef3 100%);
 }
 
 * {
     margin: 0;
     padding: 0;
-    font-family: "Indie Flower";
+  font-family: "Libertinus Mono", monospace;
+
 }
 
 body {
@@ -49,12 +50,12 @@ h1 {
     gap: 0.625rem;
     align-self: stretch;
     border-radius: 0.625rem;
-    background: #e3086e86;
+    background: #0cede92e;
     font-size: 2rem;
 }
 
 #entrada-de-texto::placeholder {
-    color: #e8069587;
+    color: #06b7e8f1;
     font-size: 1rem;
     font-weight: 400;
     line-height: normal;
@@ -69,7 +70,7 @@ h1 {
     border-radius: 0.10rem;
     border: none;
     background: var(--cor-destaque);
-    color: #cb0863;
+    color: #08aecb;
     font-size: 2.5rem;
     font-weight: 500;
     line-height: normal;
